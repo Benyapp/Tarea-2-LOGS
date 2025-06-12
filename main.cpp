@@ -6,6 +6,7 @@
 #include "utils.hpp"
 
 int main() {
+    std::cout << "Inicio de ejecución\n";
     std::srand(time(NULL));
     std::vector<int> sizes = {32, 64, 128, 256, 512, 1024, 2048, 4096};
 
