@@ -17,11 +17,16 @@ int main() {
             auto edges = compute_all_edges(points);
 
             auto start = std::chrono::high_resolution_clock::now();
-            auto mst = kruskal_sorted(true, edges, n);  // prueba una variante
+            auto mst = kruskal_sorted(false, edges, n);  // prueba una variante
             auto end = std::chrono::high_resolution_clock::now();
 
             total_time += std::chrono::duration<double>(end - start).count();
+            std::vector<Point>().swap(points);
+            std::vector<Edge>().swap(edges);
+            std::vector<Edge>().swap(mst);
+            //std::cout << "Generando aristas... total = " << edges.size() << std::endl;
         }
+        ;
         std::cout << "n = " << n << ", tiempo promedio = " << total_time / 5 << " s" << std::endl;
     }
 
