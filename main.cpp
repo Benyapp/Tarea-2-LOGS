@@ -24,7 +24,7 @@ int main() {
             std::vector<Point>().swap(points);
             std::vector<Edge>().swap(edges);
             std::vector<Edge>().swap(mst);
-            //std::cout << "Generando aristas... total = " << edges.size() << std::endl;
+            
         }
         ;
         std::cout << "n = " << n << ", tiempo promedio = " << total_time / 5 << " s" << std::endl;
