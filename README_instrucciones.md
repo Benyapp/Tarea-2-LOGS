@@ -1,12 +1,12 @@
 
 # Instrucciones de ejecución — Tarea 2 Kruskal
 
-## 🧱 Requisitos
+## Requisitos
 
 - Compilador C++ con soporte para C++17 (g++ recomendado)
 - Sistema operativo compatible (Linux, macOS o Windows con WSL)
 
-## ⚙️ Compilación
+## Compilación
 
 Para compilar el programa:
 
@@ -14,7 +14,7 @@ Para compilar el programa:
 g++ -std=c++17 main.cpp kruskal.cpp utils.cpp -o kruskal
 ```
 
-## 🚀 Ejecución
+## Ejecución
 
 Una vez compilado, ejecuta el programa con:
 
@@ -26,7 +26,7 @@ Esto imprimirá los tiempos promedio para una de las variantes del algoritmo de 
 
 ---
 
-## 🔄 Cambiar variante del algoritmo
+## Cambiar variante del algoritmo
 
 Para probar las distintas versiones del algoritmo, **modifica la siguiente línea en `main.cpp`**:
 
@@ -47,7 +47,7 @@ Luego recompila y ejecuta nuevamente.
 
 ---
 
-## 🧹 Notas
+## Notas
 
 - El programa corre 5 veces cada experimento para promediar los tiempos.
 - La limpieza de memoria entre pruebas está incorporada.
